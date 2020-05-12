@@ -1,0 +1,31 @@
+[[source]]
+url = "https://mirrors.aliyun.com/pypi/simple/"
+verify_ssl = true
+name = "aliyun"
+
+[packages]
+pymysql = "*"
+requests = "*"
+twisted = "*"
+nltk = "*"
+numpy = "*"
+pandas = "*"
+matplotlib = "*"
+prometheus-client = "*"
+psutil = "*"
+xlrd = "*"
+openpyxl = "*"
+pyspark = "*"
+pika = "*"
+pytest = "*"
+# fastparquet = "*"
+pyarrow = "*"
+apscheduler = "*"
+async = "*"
+aiodocker = "*"
+uvicorn = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.7"
